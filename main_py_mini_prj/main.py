@@ -112,11 +112,11 @@ class Sorting_App:
         self.image_box.place(x = 60, y = 230, width = 270, height = 35)
         self.image_box.current(0)
 
-        self.video_box = ttk.Combobox(self.root, values = self.audio_extensions, font = ("times new roman", 15), state = "readonly", justify = CENTER)
+        self.video_box = ttk.Combobox(self.root, values = self.video_extensions, font = ("times new roman", 15), state = "readonly", justify = CENTER)
         self.video_box.place(x = 390, y = 230, width = 270, height = 35)
         self.video_box.current(0)
 
-        self.audio_box = ttk.Combobox(self.root, values = self.video_extensions, font = ("times new roman", 15), state = "readonly", justify = CENTER)
+        self.audio_box = ttk.Combobox(self.root, values = self.audio_extensions, font = ("times new roman", 15), state = "readonly", justify = CENTER)
         self.audio_box.place(x = 730, y = 230, width = 270, height = 35)
         self.audio_box.current(0)
 
